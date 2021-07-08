@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="5i@eEO%Ag1sO[h5uh3q=">mySprite</variable><variable type="KIND_SpriteKind" id="dd.`:l;/mzVpE3v,e|X*">Player</variable><variable type="KIND_SpriteKind" id=")S*KFp9sqhGi8PRs8xdQ">Projectile</variable><variable type="KIND_SpriteKind" id="*RWJmXCk*Yz+CNQ@v99U">Food</variable><variable type="KIND_SpriteKind" id="m_EJGq=K*1jvCy+M!?8!">Enemy</variable></variables><block type="pxt-on-start" id="]/:#SuP4xSZp,7UfXtSc" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="CjTrRe[9R[Q9X.(VYAju"><field name="VAR" id="5i@eEO%Ag1sO[h5uh3q=">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="wXn::+`[u%bZd@1/-EK`"><value name="img"><shadow type="screen_image_picker" id="Z2se@f#Cw_EO_B0h/S;b"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . . . . b c . . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 5 d f . . 
+. . . . b 5 5 1 f f 5 d 4 c . . 
+. . . . b 5 5 d f b d d 4 4 . . 
+b d d d b b d 5 5 5 4 4 4 4 4 b 
+b b d 5 5 5 b 5 5 4 4 4 4 4 b . 
+b d c 5 5 5 5 d 5 5 5 5 5 b . . 
+c d d c d 5 5 b 5 5 5 5 5 5 b . 
+c b d d c c b 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Z2se@f#Cw_EO_B0h/S;b"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="EEhKKrwT/|U@iGF%H+8:"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="[.rp_nxq?K:Q;2]I?9W)"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="s2Hzk/Ucf#CG,h+jzep_"><field name="VAR" id="5i@eEO%Ag1sO[h5uh3q=">mySprite</field></block></value></block></next></block></statement></block></xml>
